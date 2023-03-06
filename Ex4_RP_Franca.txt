@@ -1,0 +1,22 @@
+-> Calculando o tempo de viagem do caminhão temos:
+
+Tsem_obstaculo = 100/80 = 1.25h ou 75min
+
+Tcom_obstaculo = 85min ou aprox 1,42h
+
+vm = 100/1.42h = 70,6km/h
+
+
+-> Tomando Ribeirão Preto como ponto de referência temos as seguintes equações horárias:
+
+carro: x = v1 * t -> t = x/v1
+
+caminhão: y = 100km - v2*t (pois o caminhão começou a 100km de distancia da cidade de referencia) -> t = (y - 100) / -v2
+
+-> Pode-se considerar x e y iguais pois a distancia entre eles incialmente é a mesma entao chamarei de s:
+
+s = (v1 * 100) / v1 + v2 -> (100km/h * 100km) / (110km/h + 70,6km/h) -> s = 60,9km
+
+
+Resposta: o carro encontrou o caminhão a 60,9km de Ribeirão preto, então ambos estão à mesma distância da cidade de RP.
+
